@@ -9,6 +9,7 @@ int main(void)
 {
 
 	int var;
+
 	for (var = 0; var < 8; var++)
 	{
 		int ii;
