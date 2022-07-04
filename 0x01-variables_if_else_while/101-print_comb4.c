@@ -1,42 +1,35 @@
 #include <stdio.h>
 
 /**
- * main - output all single digit number of base 10
- *
- * Return: 0 if successful
- */
+* main -> a program that prints all possible different
+* combinations of three digits.
+* Return: Always 0
+*/
 int main(void)
 {
+int ch;
+int n;
+int m;
 
-	int var;
-
-	for (var = 0; var < 8; var++)
+for (ch = 0; ch < 8; ch++)
+{
+	for (n = ch + 1; n < 9; n++)
 	{
-		int ii;
-
-	for (ii = var + 1; ii < 9; ii++)
+		for (m = n + 1; m < 10; m++)
 		{
-			int jj;
+		putchar((ch % 10) + '0');
+		putchar((n % 10) + '0');
+		putchar((m % 10) + '0');
 
-			for (jj = ii + 1; jj < 10; jj++)
-			{
-				putchar((var % 10) + '0');
-				putchar((ii % 10) + '0');
-				putchar((jj % 10) + '0');
-
-				if (var != 7)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-				else
-					continue;
-			}
+		if (ch != 7)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		}
 	}
-
-	putchar('\n');
-
-	return (0);
+}
+putchar(10); /* This is an ascii code for a new line */
+return (0);
 }
 
