@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
+#include <inttypes.h>
 
 /**
  * _abs - returns only possitive values
