@@ -19,11 +19,9 @@ void times_table(void)
 		while (j <= 9)
 		{
 			if (j == 0)
-				fprintf(stdout, "%d", i * j);
-			
+				fprintf(stdout, "%d", i * j);	
 			if (j > 0)
 				fprintf(stdout, "%2d", i * j);
-
 			if (j < 9)
 				fprintf(stdout, ", ");
 
