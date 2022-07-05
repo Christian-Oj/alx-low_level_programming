@@ -16,11 +16,15 @@ void times_table(void)
 	while (i <= 9)
 	{
 		j = 0;
+	
 		while (j <= 9)
 		{
-			fprintf(stdout, "%2d", i*j);
-			if (j < 9)
-				fprintf(stdout, ", ");
+			if (j == 0)
+				fprintf(stdout, "%d,", i*j);
+			
+			if (j > 0)
+				fprintf(stdout, "%2d, ", i*j);
+
 			j++;
 		}
 		fprintf(stdout, "\n");
