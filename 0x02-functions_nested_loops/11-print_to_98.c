@@ -5,13 +5,14 @@
 
 /**
  * print_to_98 - Prints natural number up to 98
+ * @n: integer value
  * Return: 0 always
  */
 void print_to_98(int n)
 {
 	if (n == 98)
 	{
-		printf("%d\n",98);
+		printf("%d\n", 98);
 		return;
 	}
 	if (n < 98)
