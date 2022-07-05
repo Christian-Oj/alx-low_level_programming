@@ -3,7 +3,8 @@
 #include <ctype.h>
 
 /**
- * print_alphabet -> prints lowercase of the alphabets
+ * _islower -> check if character is lowercase
+ * c: paramter is an integer value
  * Return: 0 always
  */
 int _islower(int c)
