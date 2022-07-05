@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * _isalpha - checks if character is lowercase, 
+ * _isalpha - checks if character is lowercase,
  * uppercase or number
  * @c: is an integer value
  * Return: 0 always
