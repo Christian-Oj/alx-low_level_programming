@@ -12,7 +12,7 @@
  * @year: year
  *
  * Created by: ALX
- * modified by: TosinISOGUN
+ * modified by: Christian-Oj
  * Date modified: 6th July, 2022
  *
  * Return: void
