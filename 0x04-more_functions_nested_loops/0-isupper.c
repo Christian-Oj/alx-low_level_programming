@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isupper - checks if argument is uppercase
@@ -12,8 +10,5 @@
  */
 int _isupper(int c)
 {
-	int res;
-
-	res = isupper(c) == 0? 0 : 1;
-	return (res);
+	return (c >= 'A' && c <= 'Z');
 }
