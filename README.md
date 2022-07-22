@@ -1,1 +1,1 @@
-Creating different blocks of code to practice C programming language
+More practice on C code
